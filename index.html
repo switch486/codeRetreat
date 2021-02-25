@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>TDD and Software Craftsmanship hand in hand.</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="resources/css/reveal.css">
+	<link rel="stylesheet" href="resources/css/theme/beige.css" id="theme">
+	<link rel="stylesheet" href="resources/css/custom.css">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="resources/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'resources/css/print/pdf.css' : 'resources/css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+
+	<div id="dLogo" style="background: url(resources/img/d_small.png);
+                        position: absolute;
+                        top: 50px;
+                        left: 50px;
+                        width: 250px;
+                        height: 65px;"></div>
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h2>TDD and Software Craftsmanship hand in hand.</h2>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br> Adam Puchalski
+				<br> apuchalski@deloittece.com
+				<br> adam.puchalski@allianz.at
+			</section>
+
+			<section>
+				<h3>Why all this?</h3>
+				<br>
+				<br>
+				Agenda:
+				<br>
+							<ul>
+								<li>>whoami</li>
+								<li>What is softwarecraftsmanship</li>
+								<li>How to get better at stuff</li>
+								<li>Excercise HowTo</li>
+								<li>Excercise S01E01</li>
+								<li>Excercise S01E02 OR S02E01</li>
+								<li>Sumup and further work</li>
+							</ul>
+			</section>
+
+			<!-- ja -->
+			<section>
+				<section>
+					<h3>>whoami</h3>
+
+					<table class="tableSlideContent">
+						<tr>
+							<td>
+								<ul>
+									<img src="./resources/img/apuchals_square.png" srcset="">
+								</ul>
+							</td>
+							<td>
+								<ul>
+									<li>Full Stack Developer @ Deloitte Poland</li>
+									<li>12 Years of commercial Experience</li>
+									<li>Proud Softwarecraftsman</li>
+									<li>Coder and Teacher</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+
+				</section>
+
+			</section>
+
+			<!-- softwarecraftsmanship -->
+			<section>
+				<section>
+					<h3>What is softwarecraftsmanship</h3>
+				</section>
+
+				<section>
+					<img class="shrinked" src="./resources/img/manifesto.PNG">
+					<br>
+					<a class="tiny" href="http://manifesto.softwarecraftsmanship.org/">SIGN IT!</a>
+				</section>
+				
+				<section class="white" data-background="#222222">
+					<h3 class="white">Care About Your Craft</h3>
+					<div class="bordered">
+						Why spend your life developing software unless you care about doing it well?
+					</div>
+					<a class="tiny" href="https://pragprog.com/the-pragmatic-programmer/extracts/tips">Pragmatic Software Development Tips</a>
+				</section>
+
+				<section>
+					<img class="shrinked" src="./resources/img/feathers.jpg">
+					<br>
+					<a class="tiny" href="https://books.google.de/books?id=_i6bDeoCQzsC&lpg=PA10&ots=ep3TDnb8_8&dq=clean%20code%20always%20looks%20like%20it%20was%20written%20by%20someone%20who%20cares&pg=PA10#v=onepage&q=clean%20code%20always%20looks%20like%20it%20was%20written%20by%20someone%20who%20cares&f=false">Source</a>
+				</section>
+
+			</section>
+
+			<!-- How to get better at stuff -->
+			<section>
+				<section>
+					<h3>How to get better at stuff</h3>
+				</section>
+
+				<section>
+					<img src="./resources/img/howto.png">
+				</section>
+
+				<section>
+					<img src="./resources/img/kata.PNG">
+				</section>
+
+				<section>
+					<img class="shrinked" src="./resources/img/kata_coding.png">
+					<br>
+					<a class="tiny" href="https://www.evertop.pl/en/code-kata-sharpen-your-it-saw/">Source</a>
+				</section>
+			</section>
+
+			<!-- softwarecraftsmanship -->
+			<section>
+				<section>
+					<h3>Excercise HowTo</h3>
+					<ul>
+						<li>Prepare Your work environment (IDE and new & empty Project)</li>
+						<li>Choose an excercise</li>
+						<li>Choose the Rules for this session</li>
+						<li>Go!</li>
+						<li>Retrospective</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Exemplary Rules</h3>
+					<ul>
+						<li>TDD</li>
+						<li>Pair Programming*</li>
+						<li>Avoid branch statements / use only the stream API / functional Programming only</li>
+						<li>Programming without using a mouse (promote Keyboard shortcuts)</li>
+						<li>Try to tweak the Excercise</li>
+					</ul>
+				</section>
+
+				<section>
+					<img src="./resources/img/tdd.png">
+					<br>
+					<a class="tiny" href="https://www.oreilly.com/library/view/modern-c-programming/9781941222423/f_0055.html">Source</a>
+				</section>
+
+				<section>
+					<img class="shrinked" src="./resources/img/red-green-refactor-tdd.png">
+					<br>
+					<a class="tiny" href="https://www.codecademy.com/articles/tdd-red-green-refactor">Source</a>
+				</section>
+				
+			</section>
+
+			<section>
+				<section>
+					<h3>Excercise S01E01 - Bowling!</h3>
+				</section>
+
+				<section>
+					<img src="./resources/img/bowling.png">
+					<br>
+					<a class="tiny" href="https://codingdojo.org/kata/Bowling/">Source</a>
+				</section>
+
+				<section>
+					<img src="./resources/img/bowling_scores.png">
+					<br>
+					<a class="tiny" href="https://www.bowlinggenius.com/">Try it here</a>
+				</section>
+
+				<section data-background="#222222">
+					<h3 class="white" >Session Start!</h3>
+				</section>
+
+				<section data-background="#ff6666">
+					<h3 class="white" >Retrospective</h3>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h3>Excercise S02E01 - Game Of Life</h3>
+				</section>
+
+				<section>
+					<img src="./resources/img/CONWAY.gif">
+					<br>
+					<a class="tiny" href="https://github.com/jwworth/conway">Source</a>
+				</section>
+
+				<section>
+					<img class="shrinked" src="./resources/img/gameofliferules11.jpg">
+					<br>
+					<a class="tiny" href="https://qualityswdev.com/2011/07/31/conways-game-of-life-in-scala/">Source</a>
+				</section>
+
+				<section data-background="#222222">
+					<h3 class="white" >Session Start!</h3>
+				</section>
+
+				<section data-background="#ff6666">
+					<h3 class="white" >Retrospective</h3>
+				</section>
+			</section>
+
+			<section  data-transition="slide" data-background="white" data-background-transition="zoom">
+				<section>
+				<h3>What I hope You will get from all this.</h3>
+
+				<ul>
+					<li>TDD is a tool in Your toolbox</li>
+					<li>There is an easy option to get better at stuff</li>
+					<li>There is a lot to learn even when working on simple things</li>
+					<li>"I can do it better the next time"</li>
+				</ul>
+				</section>
+
+				<section>
+					<h3>Thanks and take care!</h3>
+				</section>
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="resources/lib/js/head.min.js"></script>
+	<script src="resources/js/reveal.js"></script>
+
+	<script>
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			slideNumber: true,
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'resources/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+				{ src: 'resources/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'resources/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'resources/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'resources/plugin/zoom-js/zoom.js', async: true },
+				{ src: 'resources/plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+
+</html>

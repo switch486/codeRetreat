@@ -1,0 +1,61 @@
+
+div.bordered {
+	border: 3px dotted #f4f1d0;
+	padding: 3px 3px 3px 3px;
+}
+
+img.shrinkedALot {
+	max-width: 45%;
+}
+
+img.shrinked {
+	max-width: 65%;
+}
+
+img.shrinkedLittle {
+	max-width: 75%;
+}
+
+img.shrinkedTiny {
+	max-width: 85%;
+}
+
+div.alignRight {
+	text-align: right;
+}
+
+
+table.tableSlideContent td {
+
+	vertical-align: middle;
+}
+
+a.tiny {
+	font-size: 50%;
+}
+
+.white {
+	color: #f4f1d0;
+}
+
+h3.white {
+	color: #f4f1d0;
+}
+
+div.roshi {
+	background: url(roshi2.png);
+	/* https://www.9custom.com/dragon-ball/master-roshi */
+    position: absolute;
+    bottom: 50px;
+    right: -180px;
+    width: 206px;
+    height: 295px
+}
+
+.gray {
+	color: #c2c0c0;
+}
+
+.red {
+	color: red;
+}
